@@ -1,0 +1,44 @@
+{
+    "key": "group_63046ddd59dcf",
+    "title": "Services",
+    "fields": [
+        {
+            "key": "field_63046e0c5bded",
+            "label": "Icon code",
+            "name": "icon_code",
+            "type": "text",
+            "instructions": "Get the <a href=\"https:\/\/fontawesome.com\/v4\/icons\/\" rel=\"noopener\" target=\"_blank\">icon from here.<\/a> and pest the code in the field .",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "fa fa-laptop",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "service"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1662215924
+}
