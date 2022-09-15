@@ -1,0 +1,92 @@
+/*
+Theme Name: Halim
+Theme URI: https://wpwebtool.com 
+Author: MD.Ridwan
+Author URI: https://wpwebtool.com/
+Description: This Halim theme is debeloped without using any page bilder . The theme was build for lurning purpose :) 
+Tags:  halim ,blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: halim
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+div#navbarNav {
+    justify-content: flex-end;
+}
+/* blog comment style */
+ol.commentlist {
+    margin-left: 10px;
+}
+.comment-author.vcard img {
+    max-width: 49px;
+    border-radius: 50%;
+}
+
+ol.commentlist {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.comment-author.vcard {
+    margin-left: -52px;
+}
+/* single blog  */
+.single-blog img {
+    width: 100%;
+    height: 240px;
+}
+/* sideber  */
+li.latest-posts {
+    display: flex;
+    padding: 5px;
+}
+
+li.latest-posts img {
+    max-width: 80px;
+    height: auto;
+    margin-right: 14px;
+}
+
+li.latest-posts:hover {
+    /* box-shadow: 5px 5px 15px 2px gray; */
+}
+/* comments on single page  */
+h2.comments-title {
+    font-size: 25px;
+    padding: 35px 0px 10px 0px;
+    border-bottom: 1px solid gray;
+}
+form#commentform label {
+    display: none;
+}
+p.comment-form-cookies-consent label {
+    display: inline !important;
+}
+input#wp-comment-cookies-consent {
+    width: 18px;
+    margin-right: 10px;
+}
+/* contact form 7 */
+span.wpcf7-form-control-wrap {
+    width: 100%;
+}
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+    height: 74px;
+}
+/* 404 page  */
+.col-xl-12.error404 h2 span {
+    color: red;
+}
+
+
+/* gallery page  */
+.gallery-content {
+    position: relative;
+    top: 100% !important;
+}
